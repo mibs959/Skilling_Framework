@@ -2,67 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8226d0f-1a06-48ec-9dba-d5f57f5d1222" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/CreateAccountSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/PersonalInformationSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/SignUpBankSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/SignUpSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/HeaderComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/CreateAccountModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/HeaderModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/LoginModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/PersonalInformationModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/SignUpBankModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/SignUpModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/PersonalInformationPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/QuestionariePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Utils/TemporaryData.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Components/HeaderComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Features/Registration.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Model/HeaderModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Model/LoginModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Model/RegistrationModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Page/RegistrationPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Steps/RegistrationSteps.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Components/ChatComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Components/HeaderComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Model/HeaderModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Model/HomeModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Model/LoginModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Model/RegistrationModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Page/CreateAccountPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Page/HomePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Page/LoginPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Page/RegistrationPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Page/SignUpBankPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Page/SignUpPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Steps/CommonSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Steps/HeaderSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Steps/HomeSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Steps/RegistrationSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Steps/beforeAndAfter.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Components/ChatComponent.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/ChatComponent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Features/Login.feature" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Features/Login.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Model/HomeModel.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/HomeModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Page/CreateAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/CreateAccountPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Page/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/HomePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Page/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/LoginPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Page/SignUpBankPage.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/SignUpBankPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Page/SignUpPage.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/SignUpPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/CommonSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/CommonSteps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/HeaderSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/HeaderSteps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/HomeSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/HomeSteps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/LoginSteps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/beforeAndAfter.java" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Steps/beforeAndAfter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Properties/PropertyReader.class" afterPath="$PROJECT_DIR$/target/test-classes/Properties/PropertyReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Utils/NavigationUtilities.class" afterPath="$PROJECT_DIR$/target/test-classes/Utils/NavigationUtilities.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Utils/OtherUtilities.class" afterPath="$PROJECT_DIR$/target/test-classes/Utils/OtherUtilities.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/LeftNavigationComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/MyAccountPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Properties/PropertyReader.java" afterPath="$PROJECT_DIR$/src/test/java/Properties/PropertyReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Utils/NavigationUtilities.java" afterPath="$PROJECT_DIR$/src/test/java/Utils/NavigationUtilities.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Utils/OtherUtilities.java" afterPath="$PROJECT_DIR$/src/test/java/Utils/OtherUtilities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/QuestionariePage.java" afterPath="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/QuestionariePage.java" />
     </list>
     <ignored path="mavrixTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,11 +27,11 @@
     <window id="2">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="CreateAccountPage.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/CreateAccountPage.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.7951002">
+                  <state vertical-scroll-proportion="0.22873347">
                     <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
                     <folding />
                   </state>
@@ -113,12 +57,12 @@
     <window id="3">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="Registration.feature" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.19788359">
-                    <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+                  <state vertical-scroll-proportion="0.07195767">
+                    <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
                     <folding />
                   </state>
                 </provider>
@@ -239,8 +183,18 @@
       <file leaf-file-name="QuestionariePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/QuestionariePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51704544">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23216996">
+              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftNavigationComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/LeftNavigationComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -345,9 +299,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Cucumber/Steps/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/PersonalInformationModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cucumber/Steps/PersonalInformationSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Utils/NavigationUtilities.java" />
         <option value="$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/QuestionariePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature" />
       </list>
     </option>
   </component>
@@ -404,6 +358,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -659,7 +614,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1109,6 +1063,13 @@
       <option name="number" value="Default" />
       <updated>1480623117169</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit - Login Feature fully working, working on Registration Feature.">
+      <created>1488126058114</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488126058114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1149,28 +1110,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26061493" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989071" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118473895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44363105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37751004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4465593" sideWeight="0.48958334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26061493" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44363105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4465593" sideWeight="0.48958334" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1209,6 +1170,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit - Login Feature fully working, working on Registration Feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit - Login Feature fully working, working on Registration Feature." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1438,27 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/LeftNavigationComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4358407">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#724#725#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#994#995#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1068#1069#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-            <element signature="e#1136#1137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/HeaderComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36971048">
@@ -1492,7 +1436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.137255">
           <caret line="228" column="61" selection-start-line="228" selection-start-column="58" selection-end-line="228" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,17 +1443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/CreateAccountModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1531,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1539,7 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.72">
           <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1632,19 +1562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/CreateAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7951002">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43037975">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,7 +1574,7 @@
         <state vertical-scroll-proportion="0.64687973">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1700,14 +1621,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19788359">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1779,10 +1692,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Model/CreateAccountModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/CreateAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22873347">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Components/LeftNavigationComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Page_Model_Object/Page/QuestionariePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51704544">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23216996">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cucumber/Features/Registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07195767">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>
