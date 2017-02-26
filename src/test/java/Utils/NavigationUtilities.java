@@ -9,18 +9,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NavigationUtilities {
 
+    public static String currentLocalPath(){
+        return System.getProperty("user.dir");
+    }
 
     // Here we start the Selenium Web Driver, in this case we will be using Chrome Web Driver.
-//    public static WebDriver driver = new ChromeDriver();
 
-    public static WebDriver driver = chromeDriver();
-
-    public static WebDriver chromeDriver(){
-        System.setProperty("webdriver.chrome.driver","C:\\driver\\chromedriver.exe");
+    private static WebDriver chromeDriver(){
+        System.setProperty("webdriver.chrome.driver", currentLocalPath() + "\\driver\\chromedriver.exe");
         return new ChromeDriver();
     }
 
-
+    public static WebDriver driver = chromeDriver();
 
     public void navigateToUrl(String url){
         driver.manage().window().maximize();
@@ -49,7 +49,7 @@ public class NavigationUtilities {
      */
     public void clickOnElement(By by){
         try{
-            waitForElementToDisplayed(by, 10);
+            waitForElementToDisplayed(by,15);
             driver.findElement(by).click();
         }catch (WebDriverException ex){
             JavascriptExecutor executor = (JavascriptExecutor)driver;
@@ -74,11 +74,12 @@ public class NavigationUtilities {
             WebDriverWait wait = new WebDriverWait(driver, 30);
             wait.until(expectation);
         } catch (Throwable error) {
-            Assert.fail("Timeout waiting for Page Load Request to complete.");
+            Assert.fail("Timeout waiting for Page_Model_Object.Page Load Request to complete.");
         }
     }
 
     public void setTextOnElement(By by, String input){
+        waitForPageLoaded();
         driver.findElement(by).sendKeys(input);
     }
 

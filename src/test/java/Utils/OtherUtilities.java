@@ -2,13 +2,13 @@ package Utils;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.util.Map;
 import java.util.Random;
 
 /**
  * Created by martin959 on 12/02/2017.
  */
 public class OtherUtilities {
-
 
     public String generateRandomAlphaNumericString(int length) {
         String possibleCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstyxz1234567890";
@@ -45,12 +45,6 @@ public class OtherUtilities {
         String result = stringBuilder.toString();
         return result;
     }
-
-    public void pressEnterKey() throws AWTException {
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_ENTER);
-    }
-
 
 
 }

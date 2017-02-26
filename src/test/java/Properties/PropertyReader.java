@@ -1,5 +1,7 @@
 package Properties;
 
+import Utils.NavigationUtilities;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,6 +11,8 @@ import java.util.Properties;
  * Created by martin on 24/02/2017.
  */
 public class PropertyReader {
+
+    private String localPath = NavigationUtilities.currentLocalPath();
 
     public String propertyReader(String file, String property){
 
@@ -26,11 +30,11 @@ public class PropertyReader {
     }
 
     public String validUsername(){
-        return propertyReader("C:\\Users\\martin\\Downloads\\Skilling_Automation\\src\\test\\java\\Properties\\credentials.properties", "validUsername");
+        return propertyReader(localPath + "\\src\\test\\java\\Properties\\credentials.properties", "validUsername");
     }
 
     public String validPassword(){
-        return propertyReader("C:\\Users\\martin\\Downloads\\Skilling_Automation\\src\\test\\java\\Properties\\credentials.properties", "validPassword");
+        return propertyReader(localPath + "\\src\\test\\java\\Properties\\credentials.properties", "validPassword");
     }
 
 
